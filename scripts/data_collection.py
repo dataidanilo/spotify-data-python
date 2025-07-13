@@ -14,9 +14,9 @@ sp = spotipy.Spotify(auth_manager=auth_manager)
 
 
 # Rock playlists chosen for this project
-playlist_ids = [
-    "57ChLERiMe1xIpKrN2yK58",
-    "5D9BB7GAk7CgFSBMm56DFw",
+playlist_urls = [
+    "https://open.spotify.com/playlist/57ChLERiMe1xIpKrN2yK58?si=442840d9ad3d49c5", # this is an example of the entire URL
+    "5D9BB7GAk7CgFSBMm56DFw",                                                       # these are the IDs needed in the next steps
     "3zbfl6fl2qOPDzLHXtYokd",
     "2uqwvVc4Y2FMlslXJGLiz4",
     "2FrdP2LsR751HGkcyEzwK2",
@@ -33,8 +33,9 @@ def extract_playlist_id(url):
 # data extraction
 tracks_data = []
 
-for playlist_id in playlist_ids:
-    playlist = sp.playlist(playlist_id)
+for playlist_id in playlist_urls:
+    extracted_id = extract_playlist_id(playlist_id)
+    playlist = sp.playlist(extracted_id)
     playlist_name = playlist["name"]
     print(f"Data extracted from the playlist: {playlist_name}")
 
