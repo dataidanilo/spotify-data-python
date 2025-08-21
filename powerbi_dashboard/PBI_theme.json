@@ -1,0 +1,120 @@
+{
+  "name": "Spotify Project Theme",
+  "icons": {
+    "playButton": {
+      "description": "Play Button",
+      "url": "data:image/svg+xml;utf8, <svg fill='%23ffffff' width='800px' height='800px' viewBox='0 0 36 36' version='1.1'  preserveAspectRatio='xMidYMid meet' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><title>play-solid</title><path class='clr-i-solid clr-i-solid-path-1' d='M32.16,16.08,8.94,4.47A2.07,2.07,0,0,0,6,6.32V29.53a2.06,2.06,0,0,0,3,1.85L32.16,19.77a2.07,2.07,0,0,0,0-3.7Z'></path><rect x='0' y='0' width='36' height='36' fill-opacity='0'/></svg>"
+    }
+  },
+  "dataColors": [
+    "#1ed760",
+    "#23a55a",
+    "#2b4e5a",
+    "#40cfff",
+    "#ffa600",
+    "#ff4c4c",
+    "#b3b3b3",
+    "#ffffff"
+  ],
+  "background": "#121212",
+  "foreground": "#ffffff",
+  "foregroundNeutralSecondary": "#b3b3b3",
+  "backgroundLight": "#151a1b",
+  "foregroundNeutralTertiary": "#535353",
+  "backgroundNeutral": "#2b4e5a",
+  "bad": "#ff4c4c",
+  "neutral": "#b3b3b3",
+  "good": "#1ed760",
+  "minimum": "#ff4c4c",
+  "center": "#2b4e5a",
+  "maximum": "#1ed760",
+  "textClasses": {
+    "label": {
+      "color": "#474747",
+      "fontFace": "Calibri",
+      "fontSize": 10
+    },
+    "callout": {
+      "color": "#007AC3",
+      "fontFace": "Calibri",
+      "fontSize": 44
+    },
+    "title": {
+      "color": "#474747",
+      "fontFace": "Calibri"
+    },
+    "header": {
+      "color": "#474747",
+      "fontFace": "Calibri"
+    }
+  },
+ "visualStyles": {
+        "*": {
+            "*": {
+                "border": [
+                    {
+                        "show": false
+                    }
+                ],
+                "visualTooltip": [
+                    {
+                        "titleFontColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "valueFontColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": "#353535"
+                            }
+                        }
+                    }
+                ],
+                "outspacePane": [
+                    {
+                        "foregroundColor": {
+                            "solid": {
+                                "color": "#474747"
+                            }
+                        },
+                        "headerSize": 10
+                    }
+                ],
+                "filterCard": [
+                    {
+                        "$id": "Applied",
+                        "foregroundColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#23a55a"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "Available",
+                        "foregroundColor": {
+                            "solid": {
+                                "color": "#333333"
+                            }
+                        },
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#A5EFBF"
+                            }
+                        },
+                        "textSize": 9
+                    }
+                ]
+            }
+        }
+    }
+}
