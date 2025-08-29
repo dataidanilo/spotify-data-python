@@ -1,0 +1,7 @@
+spotipy
+pandas
+lyricsgenius
+pylast
+musicbrainzngs
+nltk
+nrclex
