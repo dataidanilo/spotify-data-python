@@ -20,6 +20,9 @@ The results are visualized through an interactive **Power BI Dashboard**.
 The main objective of this project is to build a comprehensive dataset of rock anthems, starting from Spotify’s official **"Rock Anthems"** playlists for each decade.  
 The dataset is enriched with metadata, lyrics, and sentiment analysis, enabling deeper insights into the characteristics of popular rock songs.
 
+<img width="6912" height="2768" alt="PlaylistsBanner" src="https://github.com/user-attachments/assets/272c683d-f38d-4774-9c55-052c357269b1" />
+
+
 ## Data Collection
 
 - **Spotify API**: Used to collect track metadata such as artists, album, release date, duration.
