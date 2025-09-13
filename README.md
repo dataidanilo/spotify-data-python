@@ -5,7 +5,7 @@ The dataset is built by collecting data from **Spotify's Web API**, enriched wit
 
 The results are visualized through an interactive **Power BI Dashboard**.
 
-
+![ProjectSpotifyDashboard](https://github.com/user-attachments/assets/34a49fed-43e9-45c4-875c-fca0add26843)
 
 ## Table of Contents  
 
