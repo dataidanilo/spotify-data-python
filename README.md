@@ -11,8 +11,9 @@ The results are visualized through an interactive **Power BI Dashboard**.
 
 1. [Project Overview](#project-overview)  
 2. [Data Collection](#data-collection)  
-3. [How to Run the Project](#how-to-run-the-project)
-4. [Author & Tools](#author--tools)  
+3. [Dashboard Sections](#dashboard-sections)
+4. [How to Run the Project](#how-to-run-the-project)
+5. [Author & Tools](#author--tools)  
 
 
 ## Project Overview
@@ -29,6 +30,18 @@ The dataset is enriched with metadata, lyrics, and sentiment analysis, enabling 
 - **Last.fm API**: Added additional information including track descriptions and cover images.
 - **Genius API**: Extracted lyrics for each track.
 - **MusicBrainz API**: Collected artist-level metadata such as country, gender, band type, and career start date.
+
+## Dashboard Sections  
+
+### 1. Home  
+
+Collects all the features of rock anthems in a single pane, highlighting the key factors that contribute to a successful rock song.
+Contents of this section and technical details:
+
+- KPI cards for total songs, average duration, most popular artist, and most popular song, which dynamically update based on user selections and filtering activity.
+- Time analysis section with bar and line charts showing average duration, artist categories, and popularity by decade.
+- Lyrics analysis with gauge and trend lines, displaying the positive score of lyrics and overall sentiment trends.
+- Pie chart showing the percentage of tracks within the selected category. Field parameters are used to group fields in the slicer, and a bookmark is applied to switch between All songs or Top 50 based on user selection.
 
 ## How to Run the Project
 
