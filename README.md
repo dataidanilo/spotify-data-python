@@ -43,6 +43,31 @@ Contents of this section and technical details:
 - Lyrics analysis with gauge and trend lines, displaying the positive score of lyrics and overall sentiment trends.
 - Pie chart showing the percentage of tracks within the selected category. Field parameters are used to group fields in the slicer, and a bookmark is applied to switch between All songs or Top 50 based on user selection.
 
+### 2. Songs
+
+An exploratory page of rock anthems sorted by popularity, displaying detailed information about each track such as duration and years since release.
+By clicking on a single song, the lyrics can be accessed, and on hover a summary of song information sourced from Wikipedia is displayed.
+Users can filter the view by selecting a playlist or by using the available filters to search for a specific track or generate a customized list.
+Contents of this section and technical details:
+
+- Buttons with custom images and bookmarks for filtering by selected playlists.
+- Custom columns are used to map specific fields, enabling easier selection for users.
+- Table formatting and conditional formatting have been applied to display data bars, URL icons, and song covers.
+- A tooltip with a Wikipedia summary is used for the on-hover summary.
+- DAX measures are implemented to achieve advanced visualization goals, such as displaying lyrics on click.
+
+### 3. Artists
+
+A section focused on artists, providing demographic and geographic information correlated with their popularity metrics on Spotify.
+Contents of this section and technical details:
+
+- A Vertical list filter and between slicer enable user to analyze in deep artists on a custom selection based on decade and age of artist or years since foundation of a band.
+- a field parameter tile slicer enable to show the list of artists order by spotify followers, popularity or song popularity.
+- KPI cards for Average age and artists category.
+- Treemap to show count of artists from UK, USA or other
+- Dynamic ArcGIS Map show distribution of artists on the map.
+- The magic happens when an artist of the list is selected, it will show all information about the artist, such as, Spotify followers and popularity, Spotify artist image, age and place on the map, this is possible through a series of DAX measures that enable to filter, hide and show information by click.
+
 ## How to Run the Project
 
 1. Clone this repository:
